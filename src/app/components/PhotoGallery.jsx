@@ -43,18 +43,11 @@ export default function PhotoGallery({ onNext }) {
                 </motion.div>
 
                 <h1 className="text-4xl md:text-6xl py-1 md:py-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-6">
-                Moments with You 
+                🥰Moments with You🥰
                 </h1>
                 <p className="text-xl text-purple-300">Beautiful moments with Madam Jii 📸</p>
             </motion.div>
-            <motion.p
-  animate={{ opacity: [0.3, 1, 0.3] }}
-  transition={{ duration: 1.5, repeat: Infinity }}
-  className="mt-8 text-sm text-white/70"
->
-  👉 Swipe right to continue →
-</motion.p>
-
+            
             {/* Cube Gallery */}
             <div className="w-full max-w-sm mx-auto">
                 <Swiper
@@ -81,6 +74,13 @@ export default function PhotoGallery({ onNext }) {
                     ))}
                 </Swiper>
             </div>
+            <motion.p
+  animate={{ opacity: [0.3, 1, 0.3] }}
+  transition={{ duration: 1.5, repeat: Infinity }}
+  className="mt-8 text-sm text-white/70"
+>
+  👉 Swipe right to continue →
+</motion.p>
 
             <motion.div
                 className="mt-12"
