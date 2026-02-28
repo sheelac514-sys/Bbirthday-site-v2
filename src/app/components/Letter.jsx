@@ -11,18 +11,24 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest Madam Jii,
+    const letterText = `Dear Heena Ma’am✨,
+    
+I really wanted to tell you how much I love everything you do for me. I don’t always say it, but you’re honestly the best teacher I’ve ever had! 💖
 
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
+To be honest, I used to really hate History before I met you. 🙈 It was so boring! But the way you teach is so cool that now History is actually my favorite subject. 📚✨ I never thought that would happen, but it’s all because of you.
 
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
+Thank you so much for being there for me, especially when I was sick. 🤒 It meant a lot to me because you not just cared about my studies but also my health. It feels like having a mother at school who always cares out for me. ❤️
 
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
+Please, Ma'am, always take good care of your health too. 🌸 You do so much for all of us, so please remember to look after yourself just like you looked after me. 💖
 
-Happy Birthday, beautiful soul! 🎂✨
+Whenever I have a problem, you always listen and stay on my side. Just knowing you’re there for me makes me feel so much better. 🌍✨ You’re my biggest inspiration and a really kind guide.
 
-With all my love and warmest wishes,
-Forever Yours 💕`
+I hope your birthday is awesome with lots of joy and fun! 🎂🎁 Please always stay happy, because when you’re happy, I’m happy too! 😊
+
+Happy Birthday, Ma'am! You're the best! 🎈🎉
+
+Your dear student,
+C.S Claina Sherin Maria 🥰`
 
     useEffect(() => {
         if (showText) {
