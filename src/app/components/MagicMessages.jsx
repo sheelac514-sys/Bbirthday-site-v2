@@ -6,32 +6,36 @@ import { motion, AnimatePresence } from "motion/react"
 export default function MagicMessages({ onNext }) {
 
   const cards = [
-    {
-      title: "More Than a Teacher 👩‍🏫❤️",
-      header: "Like a Mother ✨",
-      message:
-        "Happy Birthday, Ma’am! You don’t just teach us; you care for us like a mother. Having you in school makes me feel safe and happy every single day! 🌸",
-    },
-    {
-      title: "My Constant Support 🤝💖",
-      header: "My Kind Guide 🧭",
-      message:
-        "Thank you for always being on my side. No matter what the problem is, you always listen and support me. Just knowing you are in my corner gives me so much strength! ✨",
-    },
-    {
-      title: "The Magic of History 📚📜",
-      header: "My Inspiration 💡",
-      message:
-        "You are the reason I love History now! I used to actually hate it, but the way you teach changed everything for me. Thank you for being such an amazing inspiration! 🌟",
-    },
-    {
-      title: "A Big Wish 🎂🎁",
-      header: "Stay Happy 😊",
-      message:
-        "My biggest wish for you is that you should always be happy, just like how I was in your class! You deserve all the smiles and joy in the world. Please take care of your health too! ❤️🩹",
-    },
-  ]
-
+  {
+    title: "More Than a Teacher 👩‍🏫❤️",
+    header: "Like a Mother ✨",
+    message:
+      "Happy Birthday, Ma’am! You don’t just teach us; you care for us like a mother. Having you in school makes me feel safe and happy every single day! 🌸",
+    bg: "from-pink-500/30 to-rose-400/30",
+  },
+  {
+    title: "My Constant Support 🤝💖",
+    header: "My Kind Guide 🧭",
+    message:
+      "Thank you for always being on my side. No matter what the problem is, you always listen and support me. Just knowing you are in my corner gives me so much strength! ✨",
+    bg: "from-purple-500/30 to-indigo-500/30",
+  },
+  {
+    title: "The Magic of History 📚📜",
+    header: "My Inspiration 💡",
+    message:
+      "You are the reason I love History now! I used to actually hate it, but the way you teach changed everything for me. Thank you for being such an amazing inspiration! 🌟",
+    bg: "from-blue-500/30 to-cyan-400/30",
+  },
+  {
+    title: "A Big Wish 🎂🎁",
+    header: "Stay Happy 😊",
+    message:
+      "My biggest wish for you is that you should always be happy, just like how I was in your class! You deserve all the smiles and joy in the world. Please take care of your health too! ❤️🩹",
+    bg: "from-yellow-400/30 to-orange-400/30",
+  },
+]
+  
   const [index, setIndex] = useState(0)
 
   const nextCard = () => {
