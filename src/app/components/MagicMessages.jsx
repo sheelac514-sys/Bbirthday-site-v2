@@ -70,7 +70,7 @@ export default function MagicMessages({ onNext }) {
           transition={{ duration: 0.5 }}
           className={`bg-gradient-to-br ${cards[index].bg} backdrop-blur-md p-8 rounded-2xl max-w-xl shadow-xl`}
         >
-          <h2 className="text-xl font-semibold mb-2"ndex].title}
+          <h2 className="text-xl font-semibold mb-2">{cards[index].title}
           </h2>
 
           <h3 className="text-lg text-pink-300 mb-4">
