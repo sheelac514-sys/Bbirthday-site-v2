@@ -59,6 +59,20 @@ export default function BirthdayApp() {
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-purple-950/30 via-black to-purple-950/30">
 
       <audio ref={audioRef} src="/music.mp3" loop />
+      <button
+  onClick={() => {
+    if (!audioRef.current) return
+
+    if (audioRef.current.paused) {
+      audioRef.current.play()
+    } else {
+      audioRef.current.pause()
+    }
+  }}
+  className="fixed top-5 right-5 z-50 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-white text-sm"
+>
+  🎵 Music
+</button>
 
       {/* Background Effects */}
       <div className="fixed inset-0 z-0 blur-[120px] opacity-20" style={{
