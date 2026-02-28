@@ -47,6 +47,13 @@ export default function PhotoGallery({ onNext }) {
                 </h1>
                 <p className="text-xl text-purple-300">Beautiful moments with Madam Jii 📸</p>
             </motion.div>
+            <motion.p
+  animate={{ opacity: [0.3, 1, 0.3] }}
+  transition={{ duration: 1.5, repeat: Infinity }}
+  className="mt-8 text-sm text-white/70"
+>
+  👉 Swipe right to continue →
+</motion.p>
 
             {/* Cube Gallery */}
             <div className="w-full max-w-sm mx-auto">
