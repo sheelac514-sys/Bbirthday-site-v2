@@ -50,13 +50,14 @@ export default function MagicMessages({ onNext }) {
     <div
       onClick={nextCard}
       className="min-h-screen flex flex-col items-center justify-center text-white px-6 text-center cursor-pointer"
+    
     >
 
       {/* Top Heading */}
       <div className="mb-12">
         <div className="text-4xl mb-3">💌</div>
         <h1 className="text-4xl font-bold">Special Messages</h1>
-        <p className="text-lg opacity-80 mt-2">to Heena Ma’am!</p>
+        <p className="text-lg opacity-80 mt-2">to 💖Heena Ma’am!💖</p>
       </div>
 
       {/* Animated Card */}
@@ -67,10 +68,9 @@ export default function MagicMessages({ onNext }) {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: -40, scale: 0.95 }}
           transition={{ duration: 0.5 }}
-          className="bg-white/10 backdrop-blur-md p-8 rounded-2xl max-w-xl shadow-xl"
+          className={`bg-gradient-to-br ${cards[index].bg} backdrop-blur-md p-8 rounded-2xl max-w-xl shadow-xl`}
         >
-          <h2 className="text-xl font-semibold mb-2">
-            {cards[index].title}
+          <h2 className="text-xl font-semibold mb-2"ndex].title}
           </h2>
 
           <h3 className="text-lg text-pink-300 mb-4">
