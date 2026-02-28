@@ -2,13 +2,13 @@
 
 import { useState, useEffect, useRef } from "react"
 import { AnimatePresence } from "motion/react"
-import Loader from "../components/Loader"
-import Countdown from "../components/Countdown"
-import Celebration from "../components/Celebration"
-import HappyBirthday from "../components/HappyBirthday"
-import MagicMessages from "../components/MagicMessages"
-import PhotoGallery from "../components/PhotoGallery"
-import Letter from "../components/Letter"
+import Loader from "./components/Loader"
+import Countdown from "./components/Countdown"
+import Celebration from "./components/Celebration"
+import HappyBirthday from "./components/HappyBirthday"
+import MagicMessages from "./components/MagicMessages"
+import PhotoGallery from "./components/PhotoGallery"
+import Letter from "./components/Letter"
 import { motion } from "motion/react"
 
 export default function BirthdayApp() {
